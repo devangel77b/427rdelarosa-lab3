@@ -1,0 +1,13 @@
+1. This is a review of the manuscript "The more work applied, the higher the popper launches" by Levine, Khettry, and Dela Rosa. I recommend rejection.
+
+2. The manuscript claims to examine the work done in compressing a toy to the height it launches (e.g. it claims positive correlation; not that energy is actually conserved!). This is rather weak.
+
+3. Throughout, the writing is not of a sufficient level to publish and the authors should seek help of a writing coach or copy editor. "Poppers are toys where you press on the popper..." etc. The authors should revise their work to have similar style, word choice, sentence structure, and tone as their previously published work on kinematics.
+
+4. The authors give no indication of how they found the kinetic energy at launch. Also, it appears that they are mixing meters and centimeters in their calculations, calling into question all of their numbers.
+
+5. All of the launches seem to be at the same compression (never specified), which means the data do not directly test the weak positive correlation the authors set out to show.
+
+6. It appears only 1 replicate was done of the measurement of energy in compressing the popper. The authors compare the full energy in a 100% compressed device to that during the launches, which was never recorded or stated how compressed the launch tests were.
+
+7. Taken at face value, the authors say they are losing 57% of the energy. This seems like a lot but they only list a small laundry list of possible places the energy could go without actually testing if they are reasonable via an experiment, calculation, or citing literature to put a bound on these mechanisms. The authors made a rather trivial claim (more energy = more height), did not sufficiently test it, and appear to be breaking well established principles like energy conservation without sufficient explanation.
