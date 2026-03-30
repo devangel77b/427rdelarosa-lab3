@@ -1,0 +1,193 @@
+%\documentclass[reprint,amsmath,amssymb,aps,twoside]{revtex4-2} % for editor use only
+
+% For initial submission use these lines
+\documentclass[amsmath,amssymb,aps,endfloats,linenumbers]{revtex4-2}
+
+
+
+% DO NOT CHANGE THINGS BELOW HERE
+\usepackage{graphicx}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{dcolumn}
+\usepackage{bm}
+\usepackage{siunitx}
+%\usepackage{tikz,pgfplots}
+\sisetup{separate-uncertainty=true, multi-part-units=single}
+\usepackage[colorlinks,allcolors=blue]{hyperref}
+\usepackage{cleveref}
+\crefname{equation}{}{}
+\crefname{figure}{Fig.}{Figs.}
+\crefname{table}{Table}{Tables}
+\usepackage{svg}
+\svgpath{{./figures}}
+
+
+
+
+% set PDF metadata
+% AUTHORS EDIT THIS PART
+\hypersetup{%
+pdftitle={The More Work Applied, the Higher the Popper Launches.}, % full title here
+pdfauthor={Mason Levine, Deven Khettry, Rohan Dela Rosa}, % full author list here
+}
+
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[RE,RO]{J S\&E \textbf{2}, xx--xx (2026)} % FOR EDITOR ONLY
+\fancyhead[LO]{Lennon \emph{et al}} % if many authors
+%\fancyhead[LO]{Mason, Deven, and Rohan} % if short enough to list all authors
+\fancyhead[LE]{The More Work Applied, the Higher the Popper Launches.} % full or short title depending on what fits
+\fancyfoot[C]{\thepage}
+\fancypagestyle{mytitlepage}{
+\fancyhf{}
+\fancyhead[C]{Journal of Science \& Engineering \textbf{2}, xx--xx (2026)} % FOR EDITOR ONLY
+\fancyfoot[C]{\thepage}
+}
+
+
+\begin{document}
+%\setcounter{page}{67} % FOR EDITOR USE ONLY
+%\linenumbers % FOR EDITOR USE ONLY
+
+% AUTHORS EDIT THIS PART
+\title{The More Work Applied, the Higher the Popper Launches.}
+\author{Rohan Dela Rosa}
+\altaffiliation{Manalapan High School} % use for non S&E authors
+\author{Mason Levine}
+\author{Deven Khettry}
+\email{Contact author: 427rdelarosa@frhsd.com} % use FRHSD address
+% For S&E authors
+\affiliation{Science \& Engineering Magnet Program, \href{https://url.us.m.mimecastprotect.com/s/qtzcCOYz2LFpqPzWETEfLSGfyc8?domain=manalapan.frhsd.com High School}, Englishtown, NJ 07726 USA}
+\date{\today}
+
+
+% AUTHORS PUT YOUR MANUSCRIPT IN BELOW HERE
+\begin{abstract}
+This experiment examined the relationship between the work done on a popper toy and the maximum height it reached during its launch, using the principle of conservation of energy. Several different amounts of force were applied to the compression of the popper, and the vertical displacement was measured. We used these measurements to calculate the work done on the popper. Video analysis was utilized to find the maximum height for each launch. Results revealed that increasing the amount of work applied to the popper would lead to an increase in its maximum height, and although some of the energy was not conserved in the popper specifically, the results support the law of conservation of energy.
+\end{abstract}
+
+% For revtex format this will not print on the article page but will be used in setting 
+% the journal metadata so include keywords. Lowercase unless they are acronyms or proper nouns
+% and pick keywords that will actually help people find your work properly. 
+\keywords{Popper, Energy, Conservation, Mechanical energy, Launch}
+
+\maketitle\thispagestyle{mytitlepage}
+
+%The current column width is \the\columnwidth
+
+\section{Introduction}
+The introduction should work from broad to specific. Give major important background information or set up the major concepts to be used or tested. Set up the key research questions or hypotheses to tested. Optionally, give top level overview of method to be used. 
+
+Energy, work, and force are critical in understanding physics. Energy is the capacity to do work and change, and work is the energy transferred to an object when force causes it to move. Elastomeric toys like poppers serve as excellent models for demonstrating conversion of energy on a macroscopic scale. A popper is a hemispherical elastomeric toy that stores elastic potential energy when mechanically inverted and compressed.Upon release, a restorative force returns the toy to its original geometry, converting the stored potential energy into kinetic energy to launch it vertically.  This study investigates the mechanics of these devices.
+
+According to the work-energy theorem, the net work done on a system (in our case the popper) equals its change in kinetic energy. Therefore, increasing the work done on the elastic system should proportionally increase its maximum kinetic energy and likewise the max height of the object. However, this does not apply to all objects or is different (Ex, a rocket in space moving despite it running out of fuel due to Newton’s first law, or a feather falling slower than a rock despite any more effort you put into slamming it into the ground).
+The purpose of this experiment is to see if more work is put into the popper (i.e., “applying a greater initial downward force” or “increasing the initial compression”) then the popper's maximum height will increase, and it will launch further. By measuring its displacement vs the force applied to the popper and calculating the potential and kinetic energy of the popper, we can determine if the popper does launch further with more force and therefore work applied to it. Therefore, we hypothesized that increasing the work applied to compress the system would result in a proportional increase in maximum launch height.
+The purpose is also to see if energy is conserved in the popper when launching it, and explore the Law of Conservation and Energy, where energy cannot be created or destroyed. Since all objects seemingly follow this law, we will see if the popper also follows this.
+
+Equations are appropriate here if needed; symbols should be consistent throughout the paper. An example equation is:
+\begin{equation}
+\sum \vec{F} = m \vec{a}.
+\label{eq:fma} % example label for use with cleveref
+\end{equation}
+Equations receive punctuation; a period at the end is appropriate if it is the end of a sentence, or a comma if there is more to follow such as explanation of the symbols. Two ways to explain the symbols used are a list of symbols, or to explain them in the text. For the preceeding example in \cref{eq:fma}, $m$ is the mass in \unit{\kilo\gram}, while $\vec{a}$ is the acceleration in \unit{\meter\per\second}. J S\&E uses the \LaTeX\ \texttt{siunitx} package to format units consistently. Please do not type in your units manually, use the macros. Typing in your units manually will make more work for the editors and they will be grumpy. If you absolutely cannot figure out units or equations, write something simple with no formatting (F=ma here) and the editor may help you out. 
+
+Remember in science we do not ``prove'' hypotheses, we can disprove alternatives by falsifying them, and that any hypotheses we propose must be testable (as in there must be a way to show it was wrong). At the end of the introduction you normally introduce the research question your are out to answer and set up the testable hypotheses you will test in this article. 
+
+For initial submission it is common to set the paper to print doublespaced and with line numbers. Do not remove these it makes it easier for reviewers to comment. After initial review, the editor may switch it over to look like a preprint to aid in final formatting. Do not do this yourself! 
+
+
+
+
+
+
+\section{Methods and materials}
+This experiment utilized a 5.7-gram elastomeric popper (see below), and to measure its height, two meter sticks were taped to the wall on top of each other to cover the full distance the popper could cover. To record the data, an Apple iPhone was used at 60 frames per second, 3 feet away from the metersticks (to get a full view of the popper when it launches), and manually launched the popper at relatively similar popper compressions. This was then repeated 10 times. To determine the maximum height of the popper, we would go frame by frame in the video to determine its peak, using the meterstick as a reference. To get precise measurements for the force applied to the popper, a scissor jack (See Fig. 1) was used and the popper was placed under it. The scissor jack would slowly lower while the popper is on top of a scale to measure its weight. The weight would be recorded to estimate the amount of force being exerted on it.
+
+
+\textbf{Do not include results in your methods.} The methods tell other scientists how to replicate what you did. \textbf{Do not provide a laundry list or recipe of steps like you copied from a lab handout or an AI; these will be rejected.} 
+
+It is appropriate to put links to code or datasets; put long items in an appendix or provide online.  For example, all code used to generate this example is provided at \url{https://url.us.m.mimecastprotect.com/s/OjhZCPNA9gtKyD8pJc0hESxK2-7?domain=github.com. 
+
+
+\subsection{Use of subsections}
+Consider breaking the methods into subsections, either for different major methods or parts of the experiment. Alternatively you could break it down into subsections based on things like: experimental subjects; drop testing; statistical analyses, etc. Major models or equations are appropriate here if they explain how you are handling your data. 
+
+
+
+
+
+        
+\section{Results}
+The results should deal with ``just the facts'' exactly what you saw or measured, without interpretation. You should include graphs, tables, summary statistics, and results of statistical tests here. The key thing here is that you are reporting truthfully what you saw as just the facts; people may differ on the interpretations but results ought to be taken at face value unless your methods are flawed. Figures and tables must be numbered and must be referred to in the text. 
+
+An example of a figure is \cref{fig:foo}. Note that the figure reference name must begin with \texttt{fig:} in order for the \LaTeX cleveref macros to properly parse it. 
+\begin{figure}
+\begin{center}
+%Image file would go here 
+% \includegraphics{figures/fig1.png}
+\includegraphics{figures/newfig1.pdf}
+% \includesvg{figures/fig2.svg}
+\end{center}
+\caption{This is a caption. Captions for figures go below the figure.}
+\label{fig:foo}
+\end{figure}
+    
+An example of a table is \cref{tab:bar}. 
+\begin{table}
+\begin{center}
+\begin{ruledtabular}
+\begin{tabular}{cc}
+$x$ & $\bar{x}$ \\
+\colrule
+0 & 1 \\ 
+1 & 0 \\
+\end{tabular}
+\end{ruledtabular}
+\end{center}
+\caption{This is a table. Captions for tables go above the table.}
+\label{tab:bar}
+\end{table}
+    
+    
+    
+    
+    
+\section{Discussion}
+The results support the hypothesis we initially proposed that changing the amount of work done on the popper changes the maximum height. This phenomenon occurs because greater work stores more elastic potential energy in the popper. For the conservation of energy portion of our introduction, the mechanical energy of the popper is not conserved, however the total energy is conserved. A t-test confirmed a statistically significant difference between the work applied (.1451 J) and the kinetic energy at launch (.0682 J). This indicates that the mechanical energy of the system is not conserved. This 53% energy loss is dissipated with non-conservative forces, such as internal thermal friction, sound energy, and drag during launch phase.
+Several minor inconsistencies were also found in the data, which can be due to air resistance, inconsistent alignment of the popper, or video recording limitations. This can also be an explanation  as to why the mechanical energy conserved was “lost” due to energy being converted as heat or sound, conveying that not all work done was converted into upward motion.
+
+In conclusion, the experiment demonstrated the conservation of energy and the direct relationship between work and maximum height in a system consisting of a popper and the Earth.
+
+    
+    
+    
+    
+    
+    
+    
+\section{Acknowledgements}
+The success of this experiment is attributed to Dr. E for providing the emoji poppers, scissor jacks, meter sticks and more. Deven Khettry wrote the abstract and discussion, Mason Levine produced the results and graph, and Rohan Dela Rosa did the Introduction, Methods, and Materials.
+
+
+
+% References – Do not spend too much time trying to perfectly format per MLA or whatever because journals often have their own preferred formats; as long as you have author, title, journal, year, volume, page number it will be findable. Peer reviewed journals or published work only; Food Girl’s Blog is not a peer reviewed journal; Wikipedia is not a peer reviewed journal; Webster’s Dictionary is not necessary in a scientific journal article. If I find fake references your paper will be rejected. 
+
+
+
+
+
+
+\bibliography{example.bib}
+%References
+%[1] P.A. Tipler and G. Mosca. Physics for Scientists and Engineers, 5th ed. (W H Freeman and Company, New York, 2004).
+%
+%“De Caelo : Aristotle : Free Download, Borrow, and Streaming : Internet Archive.” Internet Archive, 2026, https://url.us.m.mimecastprotect.com/s/Np95CQWB2jUkzDM0JcMigSGA0b1?domain=archive.org. Accessed 12 Jan. 2026.
+%
+%Galilei, G. Dialogues Concerning Two New Sciences (1638).
+%
+%Chazot, Christophe. FizziQ. 5.0.4, Trapèze. Digital, 2025, Apple App Store.
+
+
+\end{document}
